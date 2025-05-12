@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cover{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.photodiv{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_img{
+    height: 70%;
+    width: 70%;
+    object-fit: contain;
+}
+
+.coverdive2{
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+}
+
+.cover_div3{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   gap: 20px;
+   width: 50%;
+}
+
+.cover_div3 h1{
+    font-size: 40px;
+}
+
+.categoryclas{
+    font-size: 30px;
+}
+
+.discription_div span{
+    font-weight: bolder;
+}
+
+.photodiv{
+    width: 50%;
+}
+
+.quantiy_div{
+    display: flex;
+
+    
+}
+
+.quantiy_div_btn{
+    display: flex;
+    gap: 20px;
+
+    
+}
+
+.quantiy_div2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.quantiy_label{
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(67, 67, 69);
+}
+.quantiy_label1{
+    display: flex;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(67, 67, 69);
+}
+
+.btn_quantiy{
+    width: 30px;
+    height: 20px;
+    font-weight: bolder;
+    cursor: pointer; 
+    background-color: rgb(2, 2, 53);
+    color: white;
+}
+
+.quantiy_btn_div1{
+    display: flex;
+    gap: 3px;
+    padding-left: 10px;
+}
+
+.quantity_p{
+     margin-left: 5px;
+     margin-right: 5px;
+}
+
+.option_class{
+    width: 40px;
+    height: 20px;
+}
+
+.size_style_div{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    z-index: 1;
+}
+
+.btn_buy_now{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(2, 2, 53);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ 
+}
+
+.btn_buy_now:hover{
+    background-color: rgb(0, 0, 0);
+    font-weight: bolder;
+    color: white;
+    border: 1px solid orangered;
+    transition: all 2.5s ease-in-out;
+    box-shadow: rgb(216, 39, 3) 0px 0px 5px 0px;
+}
+
+.policy_span{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
